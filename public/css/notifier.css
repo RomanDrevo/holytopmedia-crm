@@ -1,0 +1,15 @@
+.alert_wrapper {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    box-shadow: 1px 1px 17px;
+}
+.notification_area{
+	min-height: 400px;
+}
+.main_logo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.main_logo img{
+}

@@ -1,0 +1,4 @@
+customerId,FirstName,email,Phone,Country,campaignId,subCampaign,currency,LastName
+11222,Testing,testing663552@gmail.com,447400000000,225,72,some_name,NIS,test_lastname
+23456,testin2,testing6885652@gmail.com,447400000000,225,72,some_name,GBP,test2_lastname
+11145,testing3,Test@123.com,447400000000,225,72,some_name,USD,test3_lastname

@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+div#main_table {
+    margin-top: 86px;
+}
+table#score_board thead,
+table#copy_score_board thead {
+    background: #E8E8E8;
+}
+#score_board,
+#copy_score_board {
+    height: 86%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid;
+    overflow-y: auto;
+    background: #000;
+}
+table#score_board tr td,
+table#copy_score_board tr td{
+    height: 80px;
+    font-size: 34px;
+    text-align: center;
+}
+table#score_board thead tr th:nth-child(1), 
+table#copy_score_board thead tr th:nth-child(1){
+    width: 20px;
+}
+table#score_board tbody tr{
+    border-bottom: #fff 1px solid;
+}
+table#score_board tbody tr:nth-child(3){
+    border-bottom: red 1px solid;
+}
+table#score_board tr th,
+table#copy_score_board tr th {
+    height: 58px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#score_board tbody{
+    /*background-image: url('/images/casino-pattern.jpg');*/
+    background-repeat: no-repeat;
+    color: #000;
+}
+
+.fixed{
+  top:87px;
+  position:fixed;
+  width:auto;
+  display:none;
+  border:none;
+}
+table#score_board tbody tr td:nth-child(1), 
+table#score_board tbody tr td:nth-child(2) {
+    color: #fff;
+}
+table#score_board tbody tr td:nth-child(3), 
+table#score_board tbody tr td:nth-child(4),
+table#score_board tbody tr td:nth-child(5),
+table#score_board tbody tr td:nth-child(6),
+table#score_board tbody tr td:nth-child(7)
+{
+    color: #6AB8DC;
+}
+/*table#score_board thead tr:nth-child(1){
+    position: fixed;
+    background: #EFEFEF;
+    width: 100%;
+}
+table#score_board thead tr:nth-child(1) th:nth-child(1){ width:15%; }
+table#score_board thead tr:nth-child(1) th:nth-child(2){ width:30%; }
+table#score_board thead tr:nth-child(1) th:nth-child(3){ width:18%; }
+table#score_board thead tr:nth-child(1) th:nth-child(4){ width:12%; }
+table#score_board thead tr:nth-child(1) th:nth-child(5){ width:9%; }
+table#score_board thead tr:nth-child(1) th:nth-child(6){ width:16%; }
+table#score_board thead tr:nth-child(1) th:nth-child(7){ width:7%; }*/
+
+.playground_header img {
+    width: 400px;
+    margin: 0px auto;
+}
+.playground_header {
+    text-align: center;
+    position: fixed;
+    height: 87px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
+background: #4c4c4c; /* Old browsers */
+background: -moz-linear-gradient(top,  #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+}
